@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "build": "yarn react-native link && yarn ios"
+    "build": "yarn react-native link && yarn run ios"
   },
   "dependencies": {
     "react": "17.0.1",
