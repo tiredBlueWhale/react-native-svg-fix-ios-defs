@@ -1,5 +1,5 @@
 ##### Install Steps 
-1. `git clone --recursive https://github.com/tiredBlueWhale/react-native-svg.git`
+1. `git clone --recursive https://github.com/tiredBlueWhale/react-native-svg-fix-ios-defs.git`
 2. `cd ./react-native-svg && yarn link && cd ..`
 3. `yarn link react-native-svg`
 4. `yarn install`
