@@ -15,6 +15,7 @@ import {
   StatusBar,
   StyleSheet,
   Text,
+  TextStyle,
   useColorScheme,
   View,
 } from 'react-native';
@@ -30,7 +31,7 @@ import Svg, {
 const App = () => {
   return (
     <SafeAreaView>
-      <Text>SVG Test</Text>
+      <Text style={styles.headerStyle}>SVG Test</Text>
       <Svg>
         <Defs>
           <LinearGradient id="gradOuter" x1="0" y1="0" x2="1" y2="0">
@@ -57,8 +58,8 @@ const App = () => {
             </LinearGradient>
           </Defs>
           <SvgText
-            fill="purple"
-            stroke="purple"
+            fill="white"
+            stroke="black"
             fontSize="20"
             fontWeight="bold"
             x="150"
@@ -98,6 +99,12 @@ const App = () => {
   );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  headerStyle: {
+    fontSize: 26,
+    marginBottom: 10,
+    alignSelf: 'center',
+  },
+});
 
 export default App;
